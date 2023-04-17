@@ -13,10 +13,8 @@ const Card = ({ title, description, imageSrc }) => {
       width="100%"
     >
       <Image
-        borderRadius="lg"
-        objectFit="fill"
+       rounded={"md"}
         src={imageSrc}
-        width="100%"
       />
       <VStack
         alignItems="flex-start"
